@@ -30,7 +30,7 @@ func main() {
 		printCronJobProgessBySec(5)
 	})
 
-	// 排成開始
+	// 排程開始
 	cronjob.Start()
 
 	time.Sleep(30 * time.Second)
